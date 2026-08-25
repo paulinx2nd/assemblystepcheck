@@ -1,0 +1,182 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "abort_build": {
+      "params": [
+        [
+          "build_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "close_build": {
+      "params": [
+        [
+          "build_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "get_build": {
+      "params": [
+        [
+          "build_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    },
+    "get_build_count": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "int"
+    },
+    "get_build_id": {
+      "params": [
+        [
+          "index",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_plan": {
+      "params": [
+        [
+          "plan_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    },
+    "get_plan_count": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "int"
+    },
+    "get_plan_id": {
+      "params": [
+        [
+          "index",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "publish_plan": {
+      "params": [
+        [
+          "plan_key",
+          "string"
+        ],
+        [
+          "title",
+          "string"
+        ],
+        [
+          "graph",
+          {
+            "$dict": "any"
+          }
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "start_build": {
+      "params": [
+        [
+          "plan_id",
+          "string"
+        ],
+        [
+          "build_key",
+          "string"
+        ],
+        [
+          "verifier",
+          "address"
+        ],
+        [
+          "subject_description",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "submit_step": {
+      "params": [
+        [
+          "build_id",
+          "string"
+        ],
+        [
+          "step_id",
+          "string"
+        ],
+        [
+          "evidence_text",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "verify_step": {
+      "params": [
+        [
+          "build_id",
+          "string"
+        ],
+        [
+          "step_id",
+          "string"
+        ],
+        [
+          "accept",
+          "bool"
+        ],
+        [
+          "verifier_note",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    }
+  }
+}

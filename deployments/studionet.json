@@ -1,0 +1,191 @@
+{
+  "contract": {
+    "abi_sha256": "1e2c4f64d38dfd088646a8c722ade691c3733de945663b2660238469f184854d",
+    "address": "0x7F863B8Baf945Ae07Afe873EaC89aAb08bFeFD90",
+    "deployed_source_sha256_normalized": "7328dbf8f7fa2c68d4af481e63a359161956235ee2f3d272a698d536220981a3",
+    "deployment_tx": "0x90f9d67b986c29e5c8e79beac3b218eb9d1cd1ac55c4163d0b3bc66c831ea705",
+    "execution_result": "SUCCESS",
+    "explorer_base": "https://genlayer-explorer.vercel.app",
+    "name": "AssemblyStepCheck",
+    "schema_method_count": 12,
+    "schema_readback": true,
+    "source_exact_after_line_ending_normalization": true,
+    "source_sha256": "7328dbf8f7fa2c68d4af481e63a359161956235ee2f3d272a698d536220981a3",
+    "status": "FINALIZED"
+  },
+  "network": {
+    "chain_id": 61999,
+    "explorer": "https://genlayer-explorer.vercel.app",
+    "initial_validators": 5,
+    "name": "studionet",
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "schema": "genlayer-intelligent-contract-deployment/v2",
+  "smoke": {
+    "bound_readback": true,
+    "build_id": "0x79f684a276f792b1bdf8e3232a6c79b1b7129362:BUILD-1",
+    "chain_head": "sha256:147b828c65d5ed2ca3f07245f3c0e814a2906be9b43f4c026eb567a9108dbc5b",
+    "plan_id": "0x90f2ea47dcc355776fdf0ee1e723c553ca59abc6:BENCH",
+    "status": "COMPLETE",
+    "type": "prerequisite_gated_screening_with_separate_verifier_and_hash_chain",
+    "verified_mask": 3
+  },
+  "transactions": {
+    "close_build": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x4a0ad2c8eee6b5aea379c2ccc29a9a5323d68f0b675aadd2be0e7775ed61fd01",
+      "validator_votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "deploy": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x90f9d67b986c29e5c8e79beac3b218eb9d1cd1ac55c4163d0b3bc66c831ea705",
+      "validator_votes": [
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "publish_plan": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0xafd03b01f87861ca1823706db5bcf2a237559f9c6340a676c69f5f841264412b",
+      "validator_votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "start_build": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x8d43a83707d2b26004beb74cc3f5a374a008153c46095824be8ecd73616d84e7",
+      "validator_votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "submit_base_1": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x364c220dfb8cff9e212c4b1229afeea621f5f73f3ec6a57da78b16f03d5f464e",
+      "validator_votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "submit_frame_1": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x76e68d7ecd252150c3d41b7ce4a42f0d74ef3bf3f7760e1c6f24eb5f6c988070",
+      "validator_votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "verify_base": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x1c777815784bf2a054209597ce54d61fe29cdbef70af152b6135935e351e40ab",
+      "validator_votes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "verify_frame": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0xa479631e5069f3f607cbb8b55141df47c0dff7bbdd547440adff594f1b10c42e",
+      "validator_votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE"
+      ]
+    }
+  },
+  "verification": {
+    "all_executions_succeeded": true,
+    "all_transactions_finalized": true,
+    "bound_state_readback": true,
+    "local_direct_tests_passed": true,
+    "local_five_validator_test_passed": true,
+    "pinned_dependency_audit_no_known_vulnerabilities": true,
+    "schema_readback": true,
+    "source_readback_exact": true,
+    "wallet_isolation_overlap_count": 0
+  },
+  "verified_at": "2026-08-25T12:36:25Z",
+  "wallet": {
+    "dedicated_external_encrypted_keystores": true,
+    "deployer": "0x90F2ea47DcC355776Fdf0EE1e723c553CA59aBC6",
+    "other_owner_wallet_reused": false,
+    "owner": "paulinx2nd",
+    "private_material_in_repository": false,
+    "public_test_roles": {
+      "role_a": "0x79F684a276F792B1BDf8e3232a6C79B1B7129362",
+      "role_b": "0x960c97778Ee734ac6A8050bd677fC51b8bf33559",
+      "role_c": "0xB39c04eAC2C9E13280e76bCe7e6D59D3f1863dFA",
+      "role_d": "0x2CB78B535cA6068B1A97EdAB5A548F7FFA8037a5",
+      "role_e": "0xec23717414e254E2747757d5F477F6Cf4abc0A84"
+    },
+    "workspace_wallet_used": false
+  }
+}
